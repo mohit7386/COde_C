@@ -1,3 +1,4 @@
+//Write the Program to find the enter character is a digit or character...
 #include<stdio.h>
 int main(){
     char character;

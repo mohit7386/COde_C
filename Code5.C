@@ -1,3 +1,4 @@
+//Write the Program to find the average of the three numbers.
 #include<stdio.h>
 int main (){
     int a,b,c,Average;
