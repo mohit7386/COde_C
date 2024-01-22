@@ -25,6 +25,25 @@
         "Code25.C": "cpp",
         "Code26.C": "cpp",
         "Code27.C": "cpp",
-        "Code28.C": "cpp"
-    }
+        "Code28.C": "cpp",
+        "Code29.C": "cpp",
+        "Code30.C": "cpp",
+        "Code31.C": "cpp",
+        "Code32.C": "cpp",
+        "Code33.C": "cpp",
+        "Code34.C": "cpp",
+        "Code35.C": "cpp",
+        "Code36.C": "cpp",
+        "Code37.C": "cpp",
+        "Code38.C": "cpp",
+        "Code39.C": "cpp",
+        "Code40.C": "cpp",
+        "Code41.C": "cpp",
+        "Code42.C": "cpp",
+        "Code43.C": "cpp",
+        "code44.C": "cpp",
+        "Code45.C": "cpp",
+        "Code46.C": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
