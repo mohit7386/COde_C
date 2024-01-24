@@ -44,7 +44,9 @@
         "code44.C": "cpp",
         "Code45.C": "cpp",
         "Code46.C": "cpp",
-        "Code47.C": "cpp"
+        "Code47.C": "cpp",
+        "Code48.C": "cpp",
+        "Code49.C": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }

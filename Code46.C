@@ -1,6 +1,6 @@
 //Write a function to print "Hot" or "Cold" depending on the temperature user enters.
 #include<stdio.h>
-void enterTemperature(int temp);
+void enterTemperature(int temp); //Declare the function 
 int main(){
     int temp;
     printf("Enter the temperature\n");
@@ -14,7 +14,7 @@ void enterTemperature(int temp){ //Here these values are Parameters because it i
     }
     else if(temp>15 && temp<=35)
     {
-        printf("It's Sunny! Not Much Hot! You can go Outside\n");
+        printf("It's Sunny! Not Much Hot! Congrats! You can go Outside\n");
     }
     else if (temp<1){
         printf("It's a Freezing Weather! So be avoid to go Outside..");
