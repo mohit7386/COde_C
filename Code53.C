@@ -1,4 +1,4 @@
-//WAP to convert the temperature celsius into fahrenhiet using recursion
+//WAP to convert the temperature celsius into fahrenhiet using function
 #include<stdio.h>
 float convertTemperature(float celcius);
 int main (){
