@@ -17,7 +17,7 @@ int main(){
     printf("%d\n",age);
     printf("%d\n",*ptr);
     printf("%d\n",*(&age)); //All the three values are same and prints 22 
-    printf("%d",abc);
+    printf("%d",abc); //here we do not print the value of the a we are printing the address integer value of the abc that's why some value is printed 
     return 0;
     //In pointer asterix (*) means value at that address..
 }    
