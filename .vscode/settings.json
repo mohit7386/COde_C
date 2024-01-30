@@ -56,7 +56,13 @@
         "Code56.C": "cpp",
         "Code57.C": "cpp",
         "Code58.C": "cpp",
-        "Code59.C": "cpp"
+        "Code59.C": "cpp",
+        "Code62.C": "cpp",
+        "Code63.C": "cpp",
+        "Code64.C": "cpp",
+        "Code65.C": "cpp",
+        "Code66.C": "cpp",
+        "Code69.C": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
