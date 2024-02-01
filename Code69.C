@@ -14,11 +14,13 @@ int main(){
     return 0;
 }
 int countEven(int arr[] , int n){
-    int count = 0;
+    int count = 0 ,sum=0;
     for(int i=0;i<n;i++){ //In array loop is for traversing and accessing the values 
     if(arr[i]%2==0){ //Checking whether is even or not....
         count++;
+        sum+=arr[i];
     }
     }
-    printf("The Total Number of even numbers in your data is: %d",count); //Printing the total numbers 
+    printf("The Total Number of even numbers in your data is: %d\n",count);//Printing the total even numbers in our data 
+    printf("The sum of all present even numbers is: %d\n",sum); 
 }
