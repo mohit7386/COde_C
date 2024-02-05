@@ -13,7 +13,7 @@ int main(){
     }
     int largestNumber=findlargestNumber(arr,size,&position); //Calling the function 
     printf("The Largest Number in the whole array is %d\n",largestNumber); //Print the largest Number 
-    printf("The position of the largest number in array is: %d",position);//Print the position of the largest number 
+    printf("The Index position of the largest number in array is: %d",position);//Print the position of the largest number 
     return 0; 
 }
 int findlargestNumber(int arr[],int size,int *position){ //Definition of the function 
