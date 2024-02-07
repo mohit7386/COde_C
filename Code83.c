@@ -1,5 +1,6 @@
 //Solution of the multi-word String Input Problem 
-//Want to see the use of gets() and puts()
+//Want to see the use of gets() and puts() and fgets(var , size , file (stdin))
+//gets() is used for taking the inpur value from the user and puts() is used for printing that value taken from the user 
 #include<stdio.h>
 int main(){
     char sample[100];
