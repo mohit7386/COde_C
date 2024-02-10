@@ -62,7 +62,8 @@
         "Code64.C": "cpp",
         "Code65.C": "cpp",
         "Code66.C": "cpp",
-        "Code69.C": "cpp"
+        "Code69.C": "cpp",
+        "Code91.C": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
