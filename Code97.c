@@ -26,11 +26,38 @@
     printf("Student IdNumber: %d\n",CS[0].IdNumber);
     printf("Student percentage: %f\n",CS[0].percentage);
     printf("*************************************************************************\n");
-     strcpy(CS[0].name,"Mohit Pratap Singh");
+     strcpy(CS[1].name,"Bhawani Pratap Singh");
     CS[1].roll=4321;
     CS[1].collegecode=564;
     CS[1].IdNumber=022343;
     CS[1].percentage=99;
+    printf("Data of Student 2:- \n\n");
+    printf("Student Name: %s\n",CS[1].name);
+    printf("Student Roll No: %d\n",CS[1].roll);
+    printf("Student College Code: %d\n",CS[1].collegecode);
+    printf("Student IdNumber: %d\n",CS[1].IdNumber);
+    printf("Student percentage: %f\n",CS[1].percentage);
+    printf("============Data of Electronics Students=============\n");
+    struct student ECE[100];//Initialisation of array of Structure in which we can store 100 of students..So in the 100 space for students data will create and the indexing start with 0 to 99
+
+    strcpy(ECE[0].name,"Lucky Singh");
+    ECE[0].roll=56453; //Here we are storing the roll no. at oth index of the array of Structures
+    ECE[0].collegecode=456;
+    ECE[0].IdNumber=312212;
+    ECE[0].percentage=87;
+    //We can also store multiple data of students in our memory on the diff. diff. locations of indexes 
+    printf("Data of Student 1:- \n\n");
+    printf("Student Name: %s\n",CS[0].name);
+    printf("Student Roll No: %d\n",CS[0].roll);
+    printf("Student College Code: %d\n",CS[0].collegecode);
+    printf("Student IdNumber: %d\n",CS[0].IdNumber);
+    printf("Student percentage: %f\n",CS[0].percentage);
+    printf("*************************************************************************\n");
+     strcpy(CS[1].name,"Rajat Singh");
+    CS[1].roll=2233;
+    CS[1].collegecode=768;
+    CS[1].IdNumber=909891;
+    CS[1].percentage=76;
     printf("Data of Student 2:- \n\n");
     printf("Student Name: %s\n",CS[1].name);
     printf("Student Roll No: %d\n",CS[1].roll);
