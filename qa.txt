@@ -1,0 +1,5 @@
+Vowels are: 'a'
+Vowels are: 'e'
+Vowels are: 'i'
+Vowels are: 'o'
+Vowels are: 'u'

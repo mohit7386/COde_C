@@ -1,0 +1,6 @@
+Name                Marks     CGPA      Course              
+John Doe            85        3.50      Computer Science    
+Jane Smith          92        3.80      Physics             
+Alice Johnson       78        3.20      Mathematics         
+Bob Brown           88        3.60      Chemistry           
+Eva Davis           95        4.00      Biology             
