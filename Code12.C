@@ -4,10 +4,10 @@ int main(){
     int day;
     printf("Enter any day (1-7)\n");
     scanf("%d",&day);
-    switch (day)
+    switch (day) //Here we can only put the character or number 
     {
     case 1: printf("Sunday\n");
-        break;
+        break; //Break is used to terminate the condition of case...if you are not using the break then next condition also prints and so on....
      case 2: printf("Monday\n");
         break;
      case 3: printf("Tuesday\n");

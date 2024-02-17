@@ -1,4 +1,4 @@
-//Write the program to Check the age whether he or she is suitable for 
+//Write the program to Check the age whether he or she is suitable for Vote or not 
 #include<stdio.h>
 int main(){
     int age;
