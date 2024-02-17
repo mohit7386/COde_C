@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<stdbool.h>
 int main() {
     //Here we are trying to print the different different data types 
     int a=25;
@@ -15,7 +16,7 @@ int main() {
     printf("%d\n",a);
     printf("%c\n",star);
     printf("%f\n",pi);
-     printf("Size of bool: %lu bytes\n", sizeof(bool));
+     printf("Size of bool is: %zu bytes\n", sizeof(bool)); //zu is used to print the size of the bool
      //Now We are trying to do the sum of three Numbers
      printf("Enter the Valur of a\n");
      printf("Enter the Valur of b\n");

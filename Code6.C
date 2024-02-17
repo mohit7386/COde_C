@@ -1,14 +1,19 @@
-//Write the Program to find the enter character is a digit or character...
 #include<stdio.h>
+
 int main(){
     char character;
     printf("Enter any Character or Digit you want\n");
-    scanf("%c",&character);
-    if(character>='0'&& character<='9'){
-        printf("%c is a digit!",character);
+    scanf("%c", &character);
+
+    if(character >= '0' && character <= '9'){
+        printf("%c is a digit!", character);
+    }
+    else if((character >= 'a' && character <= 'z') || (character >= 'A' && character <= 'Z')){
+        printf("%c It's a Character!", character);
     }
     else{
-        printf("It's a Character!");
+        printf("%c It's a Special Character...", character);
     }
+
     return 0;
 }
