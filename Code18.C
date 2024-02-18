@@ -4,11 +4,14 @@ int main(){
     int num;
     printf("Enter the Number\n");
     scanf("%d",&num);
-    if(num>0 && num!=0){
+    if(num>0){
         printf("Given Number is a Natural Number\n");
     }
+    else if(num<0){
+        printf("Negative Number\n");
+    }
     else {
-        printf("Negative Number Not a Natural Number\n");
+        printf("Zero\n");
     }
     return 0;
 }

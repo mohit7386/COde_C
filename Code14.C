@@ -1,4 +1,4 @@
-//WAP for Nested If else-----
+//WAP for Nested If else---In this program we are checking the structure of the number
 #include<stdio.h>
 int main(){
     int num;

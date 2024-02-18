@@ -5,7 +5,7 @@
 int main(){
     
     for(int i=1;i<=100;i++){
-        printf("Hey I am Learning Loops\n",i); //Here this loop printing 100 times with in a second because of loops..
+        printf("Hey I am Learning for loops!\n",i); //Here this loop printing 100 times with in a second because of loops..
     }
     return 0;
 }

@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&num);
     printf("The table of %d is:\n",num);
     for(int i=1;i<=10;i++){
-        printf("%d * %d = %d\n",num,i,num*i);
+        printf("%d * %d = %d\n",num,i,num*i); //num*i is printing the multiplication 
     }
     return 0;
 }
