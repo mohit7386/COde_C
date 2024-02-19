@@ -3,7 +3,7 @@
 int main(){
 long int fact=1,num; //We need to put the vaslue of fact=1 because we are multiplying the number if we set it to zero then after multiplication result is also zero..
 printf("Enter the number then I am telling you the factorial of that number\n");
-scanf("%ld",&num);
+scanf("%ld",&num);//Taking the number from the user and ld is used for long integer value 
 for(int i=1;i<=num;i++){
     fact=fact*i;
 }

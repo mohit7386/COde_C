@@ -11,6 +11,6 @@ int main (){
     return 0;
 }
 float calculatePrice(float price){
-    float finalprice = price+((price*18)/100);
+    float finalprice = price+price*0.18; //formula for calculating the price with GST 
     return finalprice;
-}
+}//In this program we are taking the two same variable of finalprice but there is no issue you can take the same variables in the function call and the function definition this will not create any kind of issue in your code...and there is no conflict and the values will not overlap each other

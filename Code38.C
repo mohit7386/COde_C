@@ -9,7 +9,7 @@ int main(){
             count++;
         }
     }
-    if(count==2)
+    if(count==2)//When Condition Satisfy then it will print the Prime Number 
     printf("It's a Prime Number\n");
     else
     printf("Not a Prime Number\n");

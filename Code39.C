@@ -7,5 +7,5 @@ return 0;
 }
 void printhello(){ //Function Defination - Here we are writing the statements which we want to print in our result.. 
     printf("Hello\n");
-    printf("My Name is Mohit Pratap Singh\n");
+    printf("My Name is Mohit Pratap Singh!\n");
 }
