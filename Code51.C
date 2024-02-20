@@ -13,6 +13,7 @@ int sum (int n){
     if(n==1){ //Here we are terminating the loop and stops the further checking...
         return 1;
     }
-    int sumN = sum(n-1)+n; //Here sum function call itself
+    int sumN = sum(n-1)+n; //Here sum function call itself 
     return sumN;
 }
+//The logic part is sum(n-1)+n; let's take a example - sum of(4)+5 , sum(3)+4 and so on till the value of n becomes zero..

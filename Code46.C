@@ -24,4 +24,4 @@ void enterTemperature(int temp){ //Here these values are Parameters because it i
     }
 }
 //Function can only return one value at a time..
-//Changes in the parameter of the function will not effect the Argument or we can say that If we want to change the function definition values then our main function will not effect and the values are not change in the main function.
+//Changes in the parameter of the function will not effect the Argument or we can say that If we want to change the function definition values then our main function will not effect and the values are not change in the main function. Becquse a copy of argument pass to the function 
