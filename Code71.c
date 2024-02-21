@@ -1,7 +1,6 @@
 //WAP and taking a input as an array and print the reverse of an array.......
 #include<stdio.h>
 void reverseArray(int arr[] , int n); //Here we are creating the reverse function 
-//void printArray(int arr[] , int n); //Here we are creating a function for printing the array 
 int main (){
     int n;
     printf("Enter the size of numbers\n");
@@ -13,24 +12,16 @@ int main (){
     }
     printf("Reverse of an Array is:\n");
         reverseArray(arr,n);
-       // printArray(arr,n); //Call both the functions 
         return 0;
     }
-    // void printArray(int arr[] , int n){ //For Printing the array
-    //     for(int i=0;i<n;i++){
-    //         printf("%d\t",arr[i]);
-    //     }
-    // }
-    //It's a call by refrence function because are call by refrence not the call by value..
 void reverseArray(int arr[] , int n){ //Function definition 
     for(int i =0;i<n/2;i++){
-    int firstvalue=arr[i];
-    int secondvalue=arr[n-i-1];
-    arr[i]=secondvalue;
-    arr[n-i-1]=firstvalue;
+    int firstvalue=arr[i]; //Taking the first Value of the array 
+    int secondvalue=arr[n-i-1]; //yahan pe (n-i-1) isiliye liya hai kyuki agar kewal n-1 lenge to ek hi value true hoti rahegi aur ek hi value ko print karata rahega to saari values ko check kar sake iske liye i lagaya hai jisse minus hoke 
+    arr[i]=secondvalue; //Replacing the first value to the second value 
+    arr[n-i-1]=firstvalue; //Replacing the second value to the firstvalue
     }
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n;i++){ //Print the Reverse of an array 
         printf("%d\n",arr[i]);
     }
-    
 }
