@@ -10,3 +10,4 @@ int main (){
 //So here we are accessing the value with these methods...
 //1- arr[2]; -> this is the method will print the actual value 
 //2- *(arr+2); -> this is the method will print the actual value with the help of pointer..
+//Ek array ki indexing deke aur ek array ko pointer ki help se print karwa sakte hain 
