@@ -10,4 +10,4 @@ int main(){
     printf("%d\n",ptr); //Here we descrease the value of ptr which is decrease by 4 because of int data type. So pointer will increase or decrease the address value on the basis of it's data type..
     return 0;
 }
-//jab hum pointer ka increment karte hain ar pointer ptr ko print karate hain to jis data type ka hota hai wo variable utni hi bytes increase ho jaati hai 
+//jab hum pointer ka increment or decrement karte hain ar pointer ptr ko print karate hain to jis data type ka hota hai wo variable utni hi bytes increase ho jaati hai 
