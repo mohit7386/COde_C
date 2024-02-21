@@ -1,4 +1,4 @@
-//WAP to count how many even numbers is present in our data 
+//WAP to count how many even numbers is present in our data and also print their sum
 #include<stdio.h>
 int countEven(int arr[] , int n);
 int main(){
