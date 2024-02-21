@@ -1,5 +1,5 @@
 //Now we are learning the very fresh topic -> Array 
-//Collections of elements of same data type under a Single name are called array. These elements are stored in Contiguous memory location and each element are accessed by using an index value.
+//Collection of elements of same data type under a Single variable name are called array. These elements are stored in Contiguous (continous) memory location and each element are accessed by using an index value.
 //We can Only Store similar data types..Array cannot store the elements of two different data types:-
 //When you want to store the multiple elemets of same data type then we use array..
 #include<stdio.h>
