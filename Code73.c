@@ -19,14 +19,13 @@ void generateMultiplicationTable(int arr[Rows][cols]) {
     // Populate the array with the multiplication table of 2 and 3
     for (int i = 0; i < Rows; i++) { // i is for rows and j is for columns in the 2D array...
         for (int j = 0; j < cols; j++) {
-            if (j == 0) {
+            if (j == 0) { //Here firstly we take the value of j==0 and then j==1 because we have only j==0 and j==1 j kewal 0 se 1 tak chalega to pehle jab j 0 hoga to humne 2 ki table print kara li fr jab 1 hoga to humne 3 ki table print kara li.... 
                 arr[i][j] = 2 * (i + 1);  // Yahan par 2*(i+1) hai that means ki i=0 hai to 2*(0+1)=2 and jo multiply hoke arr[i][j] me store hota rahega and yahan par i liya humne logic me wo isiliye kyuki i is for row and hume logic ko 10 bar chalwana hai that's why we Store the multiples of 2
             } else if (j == 1) {
                 arr[i][j] = 3 * (i + 1);  // Store the multiples of 3
             }
         }
     }
-
     // Print the 2D array (multiplication table)
     printf("Multiplication Table of 2 and 3:\n");
     for (int i = 0; i < Rows; i++) {

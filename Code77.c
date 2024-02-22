@@ -18,7 +18,7 @@ int main() {
     printf("Enter the position to insert (1 to %d): ", size + 1);
     scanf("%d", &pos);
 
-    if (pos < 1 || pos > size + 1) {
+    if (pos < 1 || pos > size + 1) { //Position value 1 se kam nhi honi chahiye aur array ke size se matlab ki (size+1) se badi nahi honi chahiye warna printf me print karwa denge wrong choice otherwise move to the new condition...
         printf("Invalid position. Please enter a position between 1 and %d.\n", size + 1);
         return 1; // Exit the program with an error code
     }
