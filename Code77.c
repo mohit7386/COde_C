@@ -28,11 +28,11 @@ int main() {
 
     // Shift elements to make space for the new element
     for (int i = size; i >= pos; i--) {
-        arr[i] = arr[i - 1];
+        arr[i] = arr[i - 1]; //shift the elements for creating the space for new element
     }
 
     // Insert the new element at the specified position
-    arr[pos - 1] = value;
+    arr[pos - 1] = value; //Subtracting 1 from pos because the array index will be start from zero then the value is stored in the -1 position that's why we are subtracting the 1 
 
     // Increment the size of the array
     size++;
