@@ -12,7 +12,7 @@ int main(){
         fullname[i]=firstname[i]; //Transfering the value of the firstname to the full name 
     }
       fullname[i] = ' '; //Adding space between the first and last name of the string 
-    //i++; //Incremant the value of i 
+    i++; //Incremant the value of i because after giving the space point to the next location
     for(j=0;lastname[j]!='\0';j++){//traversing the each element of the last name 
         fullname[i+j]=lastname[j]; //Concatinate the String with first name and last name 
     }
