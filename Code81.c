@@ -12,12 +12,12 @@ int main(){
         fullname[i]=firstname[i]; //Transfering the value of the firstname to the full name 
     }
       fullname[i] = ' '; //Adding space between the first and last name of the string 
-    i++; //Incremant the value of i because after giving the space point to the next location
+    i++; //Incremant the value of i because after giving the space it points to the next location so that's why we are incrementing the value of i
     for(j=0;lastname[j]!='\0';j++){//traversing the each element of the last name 
-        fullname[i+j]=lastname[j]; //Concatinate the String with first name and last name 
+        fullname[i+j]=lastname[j]; //fullname[i+j] because we are Concatinating the String with first name and last name 
     }
-    //Terminate the fullname String otherwise it will go in the Infinite loop 
-    fullname[i+j]='\0'; //We are terminating the concatinating string because if we don't do this then it will go in the infinite loop..
+    //Terminate the fullname String otherwise it will go in the Infinite loop because humne last name ko rokne ke liye to loop lagaya hai but fullname ko rokne ke liye koi loop nahi hai to isiliye hum full loop ko bhi terminate karayenge with null character..
+    fullname[i+j]='\0'; //Here We are terminating the full name string after concatination because if we don't do this then it will go in the infinite loop..
     //Now call the function
     printString(fullname); //Calling the function
     return 0;
@@ -27,7 +27,7 @@ void printString(char arr[]){
     printf("Your Full Name is:  ");
     for(int i=0;arr[i]!='\0';i++){
         printf("%c",arr[i]);
-        printf(" "); //It Provides the space between Alphabets
+        printf(" "); //It Provides the space between the first and last name 
     }
     printf("\n");
 }
