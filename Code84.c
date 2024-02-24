@@ -14,5 +14,5 @@ int main (){
     str1="Ryukendo"; //Here it will give you the error because you cannot change the value in the character array...If you want to run the code then comment this line of code then you will able to print the String value and you will see we are not able to change the value of the character array..
     puts(str1);
     return 0;
-    //So the difference is we can change the value of our string in character pointer but we cannot change the value of the string in character array.. 
+    //If we defining the string using pointer then we can change the value of that string and reinitialise the value of that string... 
 }

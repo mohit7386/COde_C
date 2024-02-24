@@ -2,12 +2,12 @@
 //here two programs is available in this code comment one then run another program 
 // #include<stdio.h>
 // #include<string.h>
-    // int main(){
-    //     char arr[] = "Mohit";
-    //     printf("length is: %d",strlen(arr)); //strlen is used to count the length of the whole string and print the value with the help of printf
-    //     return 0;
-    // }
-//Also create the user defined take the string from the user 
+//     int main(){
+//         char arr[] = "Mohit";
+//         printf("length is: %d",strlen(arr)); //strlen is used to count the length of the whole string and print the value with the help of printf
+//         return 0;
+//     }
+//Also create the user defined program to take the string from the user 
 #include<stdio.h>
 #include<string.h>
 int getstringLength(char arr[]);
@@ -19,13 +19,7 @@ int main(){
     return 0;
 }
 int getstringLength(char arr[]){
-    int length = strlen(arr); //Stored the length of the string in the new variable length 
-    //Replace new line character with null character if present 
-     for (int i = 0; i < length; i++) {
-        if (arr[i] == '\n') { //when arr[i] is reached on the new line then stored null character in arr[i] and null character excluding with the help of strlen  
-            arr[i] = '\0'; 
-            break;  // Exit the loop after replacing the first newline character
-        }
-    }
-    return strlen(arr);
+    int length = strlen(arr); //Stored the length of the string in the new variable length....Because strlen will not return the int value so that's why we are typecasting the value to the length variable 
+     
+    return length-1; //Remove the new line character 
 }

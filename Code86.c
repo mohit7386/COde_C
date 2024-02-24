@@ -10,7 +10,7 @@ int main() {
     fgets(name, 50, stdin);
     printf("Enter the letter you want to count in your string\n");
     scanf("%c",&letter);
-    printf("Count of %c in your entered letter is: %d",letter, countLength(name,letter));
+    printf("Count of %c in your entered String is: %d",letter, countLength(name,letter));
     return 0;
 }
 
