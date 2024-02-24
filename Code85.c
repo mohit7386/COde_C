@@ -3,7 +3,7 @@
 int countLength(char arr[]); //Creating the function for count length of the word
 int main (){
     char name[50]; //Initialise the array with size= 50 
-    fgets(name,50,stdin); //It takes the input from the user-It's a very safe use of fgets pls try to use always fgets in place of gets()...
+    fgets(name,50,stdin); //It takes the input from the user-It's a very safe use of fgets pls try to use always fgets in place of gets()....
     printf("Length of your Entered String is: %d",countLength(name)); //Print the statement with calling the function countLength 
     return 0;
 }
