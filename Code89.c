@@ -3,10 +3,10 @@
 #include<string.h>
 void salted(char password[]);
 int main(){
-    char password[100];
+    char password[100]; //Creating an array of password 
     printf("Enter Your Password\n");
     scanf("%s",password); //you do not need to use the address operator (&) because The array should be large enough to accommodate the expected input string. Note that password itself represents the address of the first element in the array.
-    printf("Your new updated password with adding salt is: \n");
+    printf("Your new updated password with adding salt init is: \n");
     salted(password);
     return 0 ;
 }
