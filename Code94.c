@@ -3,7 +3,6 @@
 #include <string.h>
 
 void removeSpaces(char str[]);
-
 int main() {
     char str[100];
 
