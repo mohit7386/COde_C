@@ -18,7 +18,7 @@ void convertIntoUppercase(char str[]){
 // If str[i] is 'i' (ASCII 105), then str[i] - 32 becomes 'I' (ASCII 73).
 // If str[i] is 'o' (ASCII 111), then str[i] - 32 becomes 'O' (ASCII 79).
 // If str[i] is 'u' (ASCII 117), then str[i] - 32 becomes 'U' (ASCII 85).
-//It means the difference between the ASCII Values of uppercase and lowercase is 32 that's why we are subtracting the 32 in our written string and the value of the lowercase is greater then uppercase..
+//It means the difference between the ASCII Values of uppercase and lowercase is 32 that's why we are subtracting the 32 in our Logic...
         } 
     }
 }

@@ -1,7 +1,7 @@
 //WAP to check the given character is present in your string or not...
 #include<stdio.h>
 
-int isPresent(char str[], char ch);
+void isPresent(char str[], char ch);
 
 int main() {
     char str[100], ch;
@@ -15,22 +15,14 @@ int main() {
 
     return 0;
 }
-
-int isPresent(char str[], char ch) {
+void isPresent(char str[], char ch) {
     int present = 0; // Flag to indicate if the character is present
 
     for (int i = 0; str[i] != '\0'; i++) {
         if (str[i] == ch) {
-            present++; // when condition satify then present =1 and break out of the loop 
-      // Exit the loop since we found the character
+            printf("Yes, Character is present in your String! \n");
+            return; //Yahin par return laga denge jisse koi jhanjhat nahi rahe yahin pe return kara denge void liya hai isiliye kuch bhi return nahi hoga khaali return likh denge 
         }
     }
-
-    if (present) {
-        printf("Yes, Character is Present in your String\n");
-    } else {
-        printf("No, Character is not present in your string\n");
-    }
-
-    return 0;
+    printf("No, Character is Not present in your String! \n");
 }
