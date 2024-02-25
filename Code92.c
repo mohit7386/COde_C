@@ -21,15 +21,15 @@ int isPresent(char str[], char ch) {
 
     for (int i = 0; str[i] != '\0'; i++) {
         if (str[i] == ch) {
-            present = 1; // Set the flag if character is found
-            break;       // Exit the loop since we found the character
+            present++; // when condition satify then present =1 and break out of the loop 
+      // Exit the loop since we found the character
         }
     }
 
     if (present) {
         printf("Yes, Character is Present in your String\n");
     } else {
-        printf("Character is not present in your string\n");
+        printf("No, Character is not present in your string\n");
     }
 
     return 0;

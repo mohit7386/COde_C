@@ -15,6 +15,7 @@ void salted(char password[]){
     char newPass[200];
 
     strcpy(newPass,password);//newPass= "test" //We are copying the values 
+    //Now After copying the values from the string then we need to merge the values using concatination 
     strcat(newPass,salt);//newPass = "test"+"123" = "test123" //Concatinate the string
     puts(newPass);
 }
