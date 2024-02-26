@@ -10,6 +10,7 @@ struct student //struct student is a Data Type
 };
 int main(){
     struct student s1; //Data type and variable and variable is = s1;
+    //Here we are initialising the variables 
     strcpy(s1.name,"Mohit Pratap Singh"); //Copy the String to the s1.name
     s1.roll = 1234; //Assigning the roll no to the s1 variable 
     s1.Collegecode = 987;

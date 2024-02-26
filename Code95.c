@@ -13,7 +13,7 @@ struct student //struct student is a data type
 };
 int main(){
     struct student s1; //Creating a variable and here s1 is a variable 
-    //s1.name="MOHIT"; // cannot directly modify or change the value of the string and cannot store in the variable using assignment operator we can only copy the values using strcpy library function 
+    //s1.name="MOHIT"; //When we are using arrays then we cannot directly modify or change the value of the string using assignment operator hum value ko copy kar sakte hain compare kar sakte hain but value ko change nahi kar sakte hain jab bhi array use karenge...Haan agar ye pointer hota to jarur hum store kara sakte the but arrays ke saath hum aisa nahi kara sakte hain...that's why we are using the library function strcpy for copying the value of the string MOHIT into the s1.name 
     s1.roll= 1878610033;
     s1.cgpa = 9.8;
     strcpy(s1.name,"MOHIT Pratap Singh "); //see we are copying the string MOHIT to the s1.name after that you can access the value of the s1.name....You can only copy the values..
