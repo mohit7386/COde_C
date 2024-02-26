@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<string.h>
 //Declaring the Structure 
-struct student //It is a Data Type
+struct student //struct student is a Data Type
 {
     char name[100];
     int roll,Collegecode;

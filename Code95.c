@@ -4,7 +4,7 @@
 #include<string.h>
 //creating a structure and it's data type
 //Declaraing the variable 
-struct student //data type 
+struct student //struct student is a data type 
 {
     //Here we see there are multiple data types below,..we can store multiple data types in our structures,,
       char name[100]; 
