@@ -23,13 +23,14 @@ int main() {
 }
 
 void removeSpaces(char str[]) {
-    int i, j;
+    int i, j;//taking two variable i and j 
 
     // Traverse the string
     for (i = 0, j = 0; str[i] != '\0'; i++) {
         // Copy non-space characters to the same string
-        if (str[i] != ' ') {
-            str[j++] = str[i];
+        if (str[i] != ' ') { //remove the spaces from the string 
+            str[j] = str[i]; //Copy the elements of the string i into the j then incrementing the value of j
+            j++;
         }
     }
 

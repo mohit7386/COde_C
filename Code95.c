@@ -1,8 +1,8 @@
-//Now we are learning Structures - Structures is a collection of values or elements of different data types but in array collection of elements happened but of the same data type..
+//Now we are learning Structures - Structures is a collection of values or elements of different data types but in array- It's a collection of elements but of the same data type under a single variable name....
 //Struct is a user defined data type 
 #include<stdio.h>
 #include<string.h>
-//creating a structure and it's a data type
+//creating a structure and it's data type
 //Declaraing the variable 
 struct student //data type 
 {
@@ -13,14 +13,14 @@ struct student //data type
 };
 int main(){
     struct student s1; //Creating a variable and here s1 is a variable 
-    //s1.name="MOHIT"; //Here we cannot write directly a string to this s1.name variable...you cannot directly assign or copy a string using the assignment operator (=) after the array has been declared. The reason for this limitation is that arrays are treated as pointers to their first element, and C does not allow direct assignment or modification of arrays after their declaration.
-    strcpy(s1.name,"MOHIT"); //Here we cannot directly modify the array values so that's why we only copy the values so we are using strcpy library function 
-    s1.roll= 18786;
+    //s1.name="MOHIT"; // cannot directly modify or change the value of the string and cannot store in the variable using assignment operator we can only copy the values using strcpy library function 
+    s1.roll= 1878610033;
     s1.cgpa = 9.8;
+    strcpy(s1.name,"MOHIT Pratap Singh "); //see we are copying the string MOHIT to the s1.name after that you can access the value of the s1.name....You can only copy the values..
     printf("*************Data of the Student 'MOHIT' Displayed below:*************\n");
     printf("Student Name: %s\n",s1.name);
     printf("Student Roll Number: %d\n",s1.roll);
     printf("Student CGPA: %f\n",s1.cgpa);
     return 0;
-    //Structures are also Stored in Contiguous Memory location
+    //Structures are also Stored in Contiguous Memory location means continuos memory location
 }
