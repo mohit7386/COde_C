@@ -7,12 +7,16 @@ int main(){
     if(ptr==NULL){
         printf("Memory Allocation Failed\n");
     }
-    ptr[0] = 1;
-    ptr[1] = 3;
-    ptr[2] = 5;
-    ptr[3] = 7;
-    ptr[4] = 9;
-    printf("Printing the Values in Floating Points\n");
+    printf("Enter the Numbers:\n");
+    for(int i=0;i<5;i++){
+        scanf("%f",&ptr[i]);
+    }
+    // ptr[0] = 1;
+    // ptr[1] = 3;
+    // ptr[2] = 5;
+    // ptr[3] = 7;
+    // ptr[4] = 9;
+    printf("Printing the Values in Floating Points through the dynamic memory allocation!\n");
     for(int i=0;i<5;i++){
         printf("%f\n",ptr[i]);
     }

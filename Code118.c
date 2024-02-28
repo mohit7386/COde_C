@@ -7,7 +7,7 @@ int main(){
     scanf("%d",&n);
     int *ptr;
     ptr=(int * )calloc(n,sizeof(int)); //here we cannot multiply the size of int to the n because it's a calloc not a malloc in calloc we cannot multiply....where n is our no of locations you want and size of int is the per location size...
-    if(ptr==NULL){ //In Case of any kind of failure then the statement will print 
+    if(ptr==NULL){ //In Case of any kind of failure then this statement will print 
         printf("Memory Allocation failed");
     }
     printf("Memory dynamically allocated successfully and initialise with zero because of calloc \n");
@@ -16,4 +16,5 @@ int main(){
     }
     free(ptr);
     return 0;
+    //malloc will not give you the gurantee ki zero hi aayega but calloc give you the gurantee agar aap calloc use karenge to hr br zero hi aayega output me 
 }

@@ -1,7 +1,7 @@
 //WAP and create the structure and store the addresses of 5 peoples 
 #include<stdio.h>
 #include<string.h>
-struct address{ //Declaring the structure of the address of the peoples     
+/*It's a datatype*/struct address{ //Declaring the structure of the address of the peoples     
     int houseNo;                                                                            
     int Block;
     char city[100];
