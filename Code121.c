@@ -6,6 +6,7 @@ int main(){
     ptr=(int *)calloc(5,sizeof(int));
     if(ptr==NULL){
         printf("Memory Allocation Failed\n");
+        return 1;
     }
     printf("Enter Numbers(5):\n");
     for(int i=0;i<5;i++){

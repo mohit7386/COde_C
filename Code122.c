@@ -11,16 +11,19 @@ int main(){
     for(int i=0;i<5;i++){
         scanf("%d",&ptr[i]);
     }
-    ptr=realloc(ptr,6);
+     for(int i=0;i<5;i++){
+        printf("%d",ptr[i]);
+    }
+    ptr=realloc(ptr,6); //reallocate the memory with the same pointer ptr and the new size of the memory is now 6 -> realloc(ptr,newsize); 
     printf("Enter first 6 even Numbers:\n");
     for(int i=0;i<6;i++){
        scanf("%d",&ptr[i]);
     }
-    //Now Printing the number after reallocation or increasing the memory size
-    printf("Memory Increased with the size of 6 and now it will be size of 11 \n");
+    //Now Printing the number after reallocation or increasing the number of elements
+    printf("Memory Increased with the new size 6..\n");
     for(int i=0;i<6;i++){
         printf("Even Number at %d Position is: %d\n",i,ptr[i]);
     }
-   free(ptr);
+   free(ptr); //For best practice always use free(ptr)...
    return 0;
 }
