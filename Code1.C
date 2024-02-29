@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<stdbool.h>
+#include<stdbool.h>//This is a header file
 int main() {
     //Here we are trying to print the different different data types 
     int a=25;
