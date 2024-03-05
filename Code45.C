@@ -1,6 +1,6 @@
 //WAP to find the square root of any number entered by the user..
 #include<stdio.h>
-#include<math.h> //Using header file math.h for using some library functions....
+#include<math.h> //Using header file math.h for using some library functions and do some mathematical operations.....
 double findSquareroot(double num); //Taking the function for priting the squareroot of any number..
 
 int main(){
