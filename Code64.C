@@ -16,7 +16,7 @@ int main(){
     // printf("The Total Price with GST for Product 2 is:- %f \n",product[1]+(0.18*product[1]));
     // printf("The Total Price with GST for Product 3 is:- %f \n",product[2]+(0.18*product[2]));
     int finalcost = product[0]+product[1]+product[2]; //Sum up all the array values and store it to the new variable here yahan pe variable me store karayegnge koi array me nahi reason is that jo sumup hoke value aayegi wo number hai na ki koi array hai to isiliye hum store karayenge variable me..
-    float finalcostwithgst = finalcost+((float)finalcost*0.18); //Adding GST in our Final Price 
+    float finalcostwithgst = finalcost+(finalcost*0.18); //Adding GST in our Final Price 
     printf("The Final Cost of the Product with GST is: %f\n",finalcostwithgst); //let's print the final price //If you will give the %.2f then this will give you the 2 decimal place after the number and if you only give the %f then it will give you whole decimal place according to the floating point number (according to the bytes)..
     return 0;
 }

@@ -3,7 +3,7 @@
 #include<stdio.h>
 void printLetters(char letter);
 int main(){
-     char letter = 'a';
+     
     char *ptr = &letter;
     // char letter = 'a';
     // char *ptr=&letter;
@@ -21,6 +21,7 @@ int main(){
 }
 void printLetters(char letter){
     char *ptr= &letter;
+    char letter = 'a';
     printf("All English Alphabets\n");
     while (*ptr <= 'z')
     {
