@@ -1,4 +1,4 @@
-//WAP to print the sum of two numbers using function..
+//WAP and do some arithmetic operations.....
 #include<stdio.h>
 int sum(int a, int b); 
 int sub(int c ,int d);//Here we are creating the function of sum name..
